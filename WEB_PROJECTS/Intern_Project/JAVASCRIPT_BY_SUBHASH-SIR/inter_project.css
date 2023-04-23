@@ -1,0 +1,591 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* navabar1 starts */
+.nav1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.nav1 .div1 h1 #sp1 {
+    color: #27A365;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 15px;
+}
+
+.div1 h1 {
+    font-size: 25;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.nav1 .div2 input {
+    border: none;
+    outline: none;
+    width: 350px;
+    height: 40px;
+    border-radius: 15px;
+    color: #F2F2F2;
+    background-color: #F2F2F2;
+    padding-left: 35px;
+
+}
+
+.nav1 .div2 {
+    position: relative;
+}
+
+.nav1 .div2 i {
+    position: absolute;
+    left: 5px;
+    top: 10px;
+}
+
+.div3 p span {
+    color: #2F6CE5;
+}
+
+/* navabar1 starts */
+
+
+/* navabar1 starts */
+.nav2{
+    width: 100%;
+    padding: 10px;
+    display: none;
+}
+.nav2 .div1{
+    float: right;
+    /* font-size: 10px; */
+    margin-left: 20px;
+}
+.nav2 .div1 i{
+    margin: 0 5px;
+}
+
+
+/* navabar1 starts */
+/* sectin1 startes */
+
+.sec1 {
+    background-image: url(./img1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    /* background: transparent; */
+}
+.sec1 .join{
+
+    display: none;
+
+}
+/* .sec1 .join i{
+
+} */
+.sec1 .join button{
+    padding: 10px 15px;
+    color: white;
+    background: transparent;
+    border-radius: 3px;
+    border: none;
+    border: 1px solid rgba(128, 128, 128, 0.893);
+    font-weight: bolder;
+    margin-left: 80vh;
+
+}
+.sec1 .text {
+    color: white;
+    position: relative;
+    top: 40vh;
+    left: 50vh;
+    margin: 10px 0px;
+} 
+.sec1 .text h1{
+    font-size: 35px;
+}
+
+/* sectin1 endes */
+
+/* sectin2 startes */
+.sec2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.892);
+}
+
+.sec2 .div1 ul {
+    display: flex;
+    padding: 10px 0;
+}
+
+.sec2 .div1 ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.sec2 button {
+    padding: 10px;
+    border: none;
+    margin: 0 10px;
+}
+
+.sec2 .div2 #btn2 {
+    background-color: #2F6CE5;
+}
+.filter{
+    display: none;
+}
+/* sectin2 ends */
+
+/* sectin3 startes */
+.sec3 {
+    margin: 10px 0 10px 250px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(128, 128, 128, 0.925);
+    border-radius: 5px;
+    width: 700px;
+}
+.sec3 .div1{
+    font-size: 20px;
+    font-weight: bolder;
+} 
+.sec3 .div1 img{
+    width: 100%;
+}
+.sec3 .div2,
+.div3 {
+    margin: 5px 10px;
+}
+
+.sec3 .div2 #sub2 h1,
+.sec3 .div2 p {
+    margin: 10px 0;
+}
+
+.sec3 .div2 #sub2 {
+    display: flex;
+    justify-content: space-between;
+}
+.sec3 .div2 #sub2 i,.sec4 .div2 #sub2 i,.sec5 .div2 #sub2 i,.sec6 .div2 #sub2 i{
+    font-size: 30px;
+    font-weight: bolder;
+    /* border: 2px solid gray; */
+    /* background-color: rgba(128, 128, 128, 0.756);
+    height: 25px; */
+    }
+
+.sec3 .div3 #sub1 p {
+    display: inline;
+    position: relative;
+    bottom: 23px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.sec3 .div3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec3 .div3 #sub2 {
+    display: flex;
+    /* margin: 0 5px; */
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.sec3 .div3 #sub2 p {
+    margin: 0 10px;
+}
+
+.sec3 .div3 #sub2 p~i {
+    margin: 0 10px;
+}
+
+/* sectin3 ends */
+
+/* section4 started */
+.sec4 {
+    margin: 10px 0 10px 250px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(128, 128, 128, 0.925);
+    border-radius: 5px;
+    width: 700px;
+}
+.sec4 .div1{
+    font-size: 20px;
+    font-weight: bolder;
+} 
+.sec4 .div1 img{
+    width: 100%;
+}
+.sec4 .div2,
+.div3 {
+    margin: 5px 10px;
+}
+
+.sec4 .div2 #sub2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec4 .div2 #sub2 h1,
+.sec4 .div2 p {
+    margin: 10px 0;
+}
+
+.sec4 .div3 #sub1 p {
+    display: inline;
+    position: relative;
+    bottom: 23px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.sec4 .div3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec4 .div3 #sub2 {
+    display: flex;
+    /* margin: 0 5px; */
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.sec4 .div3 #sub2 p {
+    margin: 0 10px;
+}
+
+.sec4 .div3 #sub2 p~i {
+    margin: 0 10px;
+}
+
+
+/* section4 ended */
+
+
+/* section5 started */
+.sec5 {
+    margin: 10px 0 10px 250px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(128, 128, 128, 0.925);
+    border-radius: 5px;
+    width: 700px;
+}
+.sec5 .div1{
+    font-size: 20px;
+    font-weight: bolder;
+} 
+.sec5 .div1 img{
+    width: 100%;
+}
+.sec5 .div2,
+.div3 {
+    margin: 5px 10px;
+}
+
+.sec5 .div2 #sub2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec5 .div2 #sub2 h1,
+.sec4 .div2 p {
+    margin: 10px 0;
+}
+
+.sec5 .div2 .sub3 {
+    display: flex;
+    padding: 10px 0px;
+    font-weight: bolder;
+}
+.sec5 .div2 .sub3 #location{
+    margin-left: 50px;
+}
+
+.sec5 .div3 #sub1 p {
+    display: inline;
+    position: relative;
+    bottom: 23px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.sec5 .div3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec5 .div3 #sub2 {
+    display: flex;
+    /* margin: 0 5px; */
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.sec5 .div3 #sub2 p {
+    margin: 0 10px;
+}
+
+.sec5 .div3 #sub2 p~i {
+    margin: 0 10px;
+}
+
+.sec5 button {
+    padding: 10px 0px;
+    width: 90%;
+    border-radius: 10px;
+    margin: 15px auto;
+    color:  #E56135;
+    font-weight: bold;
+}
+
+/* section5 ende */
+
+/* section6 started */
+.sec6 {
+    margin: 10px 0 10px 250px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(128, 128, 128, 0.925);
+    border-radius: 5px;
+    width: 700px;
+}
+.sec6 .div1{
+    font-size: 20px;
+    font-weight: bolder;
+} 
+.sec6 .div2,
+.div3 {
+    margin: 5px 10px;
+}
+
+.sec6 .div2 #sub2 {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10px 0px; */
+}
+
+.sec6 .div2 #sub2 h1,
+.sec4 .div2 p {
+    margin: 10px 0;
+}
+
+.sec6 .div2 .sub3 {
+    display: flex;
+    padding: 10px 0px;
+    font-weight: bolder;
+}
+.sec6 .div2 .sub3 #location{
+    margin-left: 50px;
+}
+
+.sec6 .div3 #sub1 p {
+    display: inline;
+    position: relative;
+    bottom: 15px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.sec6 .div3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec6 .div3 #sub2 {
+    display: flex;
+    /* margin: 0 5px; */
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.sec6 .div3 #sub2 p {
+    margin: 0 10px;
+}
+
+.sec6 .div3 #sub2 p~i {
+    margin: 0 10px;
+}
+
+.sec6 button {
+    padding: 10px 0px;
+    width: 90%;
+    border-radius: 10px;
+    margin: 15px auto;
+    color: #02B875 ;
+    font-weight: bold;
+}
+/* section6 ended */
+
+/* section7 ended */
+.sec7 {
+    width: 300px;
+    position: absolute;
+    top: 100vh;
+    right: 10vh;
+
+}
+.sec7 .div1 input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.888);
+    margin: 10px 0px;
+    width: 200px;
+    padding-left: 15px;
+    height: 20px;
+}
+.sec7 .div1 p{
+    font-weight: lighter;
+    margin: 10px 0;
+}
+.sec7 .div1 input~i{
+    position: relative;
+    right: 25px;
+}
+
+.sec7 .div3 button{
+    background-color: #2F6CE5;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+
+.extra{
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    position: absolute;
+    top: 121vh;
+    left: 113vh;
+    padding-left: 8px;
+    /* display: none; */
+}
+.extra ul li{
+    margin: 10px 0;
+    list-style: none;
+  
+}
+
+/* section7 ended */
+
+/* media query */
+
+@media (max-width: 1330px){
+.sec7{
+    display: none;
+}
+}
+
+@media (min-width: 100px) and (max-width: 420px){
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+.nav2{
+    display: block;
+    /* padding: 20px; */
+    height: 10px;
+}
+.nav1{
+    display: none;
+}
+.sec1 .join{
+    display: block;
+    /* display: flex;
+    justify-content: space-around; */
+}
+.sec1 .text{
+    position: absolute;
+    top: 40vh;
+    left: 2vh;
+}
+.sec1{
+   background-size: 420px 50vh;
+   object-fit: cover;
+   
+}
+.sec2{
+    display: none;
+}
+ .filter{
+    display: flex;
+    justify-content: space-around;
+}
+.sec3,.sec4,.sec5,.sec6{
+    margin-left: 0px;
+    /* height: 500px; */
+   width: 400px;
+}
+.sec3 .div2 .sub1,.sec4 .div2 .sub1,.sec5 .div2 .sub1,.sec6 .div2 .sub1{
+    font-size: 16px;
+}
+}
+
+@media (min-width: 700px) and (max-width: 920px){
+    .sec3,.sec4,.sec5,.sec6{
+        margin-left: 30px;
+        /* height: 500px; */
+       /* width: 400px; */
+    }
+    .sec1{
+        background-size: 900px 50vh;
+        object-fit: cover;
+        
+     }
+     .sec1 .text{
+        position: absolute;
+        top: 40vh;
+        left: 10vh;
+        /* position: fixed; */
+    }
+    /* .sec1 .join{
+        display: block;
+        /* display: flex;
+        justify-content: space-around; */
+    /* } */ 
+}
+
+@media (min-width: 420px) and (max-width: 700px){
+    .sec3,.sec4,.sec5,.sec6{
+        margin-left: 30px;
+        /* height: 500px; */
+       width: 600px;
+    }
+    .sec1{
+        background-size: 600px 50vh;
+        object-fit: cover;
+        
+     }
+
+     .nav2{
+        display: block;
+        /* padding: 20px; */
+        /* height: 10px; */
+    }
+    .nav1{
+        display: none;
+    }
+    .sec1 .text{
+        position: absolute;
+        top: 40vh;
+        left: 10vh;
+        /* position: fixed; */
+    }
+   
+}
