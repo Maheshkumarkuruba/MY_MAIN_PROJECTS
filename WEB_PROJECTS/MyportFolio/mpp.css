@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* navbar started */
+nav{
+    display: flex;
+justify-content: space-around;
+background-color: wheat;
+height: 50px;
+position: sticky;
+top: 0px;
+z-index: 100;
+
+}
+nav .logo{
+    display: flex;
+    /* margin: 10px 0px; */
+}
+nav .logo img{
+    width: 50px;
+    height: 50px;
+    margin:  0px 25px;
+    transition: .5s;
+}
+nav .logo img:hover{
+    transform: scale(1.1);
+}
+nav .logo h3 span{
+    color: rgb(255, 93, 34);
+    /* font-weight: 600; */
+    text-transform: uppercase;
+}
+nav .logo h3{
+    font-weight: 500;
+    margin: 12px 0px;
+}
+.text ul{
+    display: flex;
+    flex-direction:row;
+}
+
+nav .text ul li a,nav .text ul a{
+    list-style: none;
+    margin: 10px 10px;
+    text-decoration: none;
+    color: black;
+}
+nav .text ul a li:hover{
+    color: rgb(49, 12, 254);
+    text-decoration: solid;
+}
+nav .text ul a:hover{
+    text-decoration: underline;
+    color: aqua;
+    
+}
+/* navbar ended */
+
+/* section1  started */
+.sec1{
+    border: 2px solid rgba(128, 128, 128, 0.868);
+    text-transform: capitalize;
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   /* margin-top: 100px; */
+   height: 60vh;
+   background-color: white;
+   box-shadow: 8px 8px 5px gray;
+   position: relative;
+   top: 85px;
+   width: 80%;
+   margin: auto;
+   border-radius: 5px;
+
+
+}
+.sec1 .logosec1 #logosecimg{
+height: 150px;
+width: 180px;
+/* border: 3px solid green;
+ */
+
+}
+.sec1 .logosec1 .hr1{
+    width: 170px;
+    /* font-weight: 500;
+    color: rgb(86, 86, 255); */
+    border: 1px solid blue;
+    margin: 20px auto;
+}
+.sec1 .logosec1 .bi{
+    margin: 0px 5px;
+    font-size: 20px;
+}
+.sec1 .logosec1 .bi:hover{
+    color: rgb(81, 181, 221);
+}
+.sec1 .logosec1 p{
+    margin: 20px 0px;
+}
+.sec1 .logosec1 #logosecimg img{
+width: 100%;
+height: 100%;
+border-radius: 100px;
+transition: .5s;
+}
+.sec1 .logosec1 #logosecimg img:hover{
+transform: scale(1.1);
+box-shadow: 5px 5px 5px rgba(101, 101, 101, 0.916);
+}
+.sec1 .logosec1{
+    background-color: rgba(255, 164, 194, 0.721);
+    margin: 10px 0px;
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px gray;
+}
+.sec1 .textsec1{
+/* text-align: center; */
+text-transform: capitalize;
+width: 600px;
+}
+.sec1 .textsec1 button{
+    background-color: rgb(29, 29, 253);
+    padding: 10px 18px;
+    margin: opx 5px;
+    border-radius: 20px;
+    text-transform: capitalize;
+    transition: .5s;
+    color: wheat;
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+}
+.sec1 .textsec1 button:hover{
+    color:  rgb(82, 82, 255);
+    transform: scale(1.1);
+    color: black;
+}
+.sec1 .textsec1 h3{
+    margin: 20px 0px;
+}
+.sec1 .textsec1 p{
+    margin: 20px 0px;
+    line-height: 25px;
+}
+
+/* section1  ended */
+
+
+/* footer started */
+.footer{
+    background-color: rgba(0, 0, 0, 0.711);
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    text-transform: capitalize;
+    height: 100px;
+    align-items: center;
+    margin-top: 150px;
+}
+.footer .contact_icons a{
+margin: 0px 10px;
+    color: wheat;
+    cursor: pointer;
+    font-size: 20px;
+}
+.footer .contact_icons a:hover{
+color: rgb(101, 208, 250);
+}
+/* footer ended */
+
+/* resume template started */
+.ressec1{
+height: 200px;
+width: 600px;
+background-color: papayawhip;
+text-transform: capitalize;
+margin: auto;
+margin-top: 50px;
+display: flex;
+justify-content: center;
+border-radius: 5px;
+border-radius: 8px;
+box-shadow: 5px 5px 5px gray;
+}
+
+.ressec1 .rescontent{
+margin-top: 50px;
+}
+.ressec1 .rescontent #para1{
+    margin: 8px 0px;
+}
+.ressec1 .rescontent #para2{
+    margin-bottom: 8px;
+}
+/* resume template ended */
+
+/* project section started */
+.prosec1{
+    border: 1px soliod red;
+    margin-top: 80px;
+    margin-left: 100px; 
+    display: flex;
+    justify-content: center; 
+    text-transform: capitalize;
+}
+.prosec1 .protex1{
+    width: 500px;
+    background-color:rgba(250, 214, 220, 0.805);
+/* margin-left: 20px; */
+padding-left: 25px;
+text-align: center;
+
+}
+.prosec1 .protex1 h1 span{
+    color: orangered;
+}
+.prosec1 .protex1 h1{
+    color: blue;
+    border: 2px slod green;
+    padding: 5px;
+}
+.prosec1 .protex1 #hr2{
+    border: 1px solid blue;
+    width: 100px;
+    margin: auto;
+}
+.prosec1 .protex1 p{
+    margin: 50px 0px;
+    line-height: 25px;
+}
+.prosec1 .protex1 a{
+    text-decoration: none;
+}
+.prosec1 .protex1 a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.prosec1 .proimg1{
+    height: 400px;
+    width: 400px;
+    border: 2px solid rgb(240, 50, 50);
+    transition: .3s;
+}
+.prosec1 .proimg1:hover{
+    transform: scale(1.1);
+    box-shadow: 8px 8px 5px gray;
+}
+.prosec1 .proimg1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/* project section ended */
+
+
+@media only screen and (max-width:750px)
+{
+nav{
+    display: flex;
+flex-direction: column;
+height: 100px;
+justify-content: center;
+width: 100%;
+}
+nav .logo{
+    margin: auto;
+}
+nav .text{
+    display: flex;
+    flex-direction: column;
+    margin: auto;  
+}
+.sec1{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 400px;
+}
+.sec1 .textsec1{
+    text-align: center;
+}
+.ressec1{
+    width: 400px;
+}
+ 
+.prosec1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    margin: auto;
+    position: relative;
+    top: 50px;
+}
+.prosec1 .protex1{
+    margin: 10px 0px;
+    text-align:start;
+}
+.footer{
+height: 200px;
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+}
