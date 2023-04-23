@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+/* alluarjun image starts */
+.image{
+    margin-top: 10px;
+}
+ .image .img_div{
+    width: 300px;
+    height: 300px;
+    border: 3px solid red;
+    position: relative;
+    overflow: hidden;
+ }
+ .image .img_div img{
+    width: 100%;
+    height: 100%;
+    transition: all 3s;
+    opacity: 0.5;
+ }
+ .image .img_div:hover img{
+    box-shadow: 2px 2px 30px 10px rgb(249, 136, 136);
+    transform:scale(1.1);
+    opacity: 1;
+ }
+.imagecontent{
+    background-color: rgba(36, 36, 255, 0.893);
+    height:0%;
+    width: 100%;
+    /* left: 0px;   */
+   /* bottom: 100%; */
+    left: 0;
+    /* right: 0; */
+    top: 0px;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    /* overflow: hidden; */
+    transition: height 3s;
+}
+.imagecontent h2{
+    margin-top: 90px;
+}
+ .img_div:hover .imagecontent{
+    height: 100%;
+    /* visibility: visible; */
+    /* box-shadow: 10px 10px 50px 120px rgba(36, 36, 255, 0.893); */
+}
+/* alluarjun image starts */
+
+ /* section::before{
+    content: "";
+      background-image: url(./img1.jpg);
+      background-repeat: no-repeat;
+      background-size: 100% 80%;
+      background-position: center;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    top: 0px;
+    left: 0px;
+      z-index: -1;
+} */
+
+/* image practice starts */
+.section2 .image1{
+height: 300px;
+width: 300px;
+border: 3px solid red;
+margin: 30px 0px;
+position: relative;
+overflow: hidden;
+}
+.section2 .image1 img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    transition: all 2s;
+}
+.section2 .image1:hover img{
+opacity: 1;
+transform: scale(1.1);
+}
+.image1content{
+background-color: blue;
+width: 100%;
+/* top: 0px; */
+bottom: 0px;
+/* left: 0; */
+height: 0%;
+position: absolute;
+text-align: center;
+font-size: 30px;
+color: white;
+transition: height 1s;
+}
+.image1content h1{
+    margin-top: 50px;
+    
+}
+ .image1:hover .image1content{
+height: 100%;
+ }
+/* image practice ends */
+
+
+.content{
+    height: 200px;
+    width: 250px;
+    background-color: red;
+    animation-name: mahesh;
+    animation-duration: 5s;
+    position: relative;
+    /* animation-delay: -2s; */
+    animation-iteration-count: 5;
+    animation-timing-function: ease-in;
+}
+@keyframes mahesh{
+    /* 0% {left: 200px;top: 0px;} */
+    /* 25% {left: 300px;top: 0px;} */
+    from{left: 0px;}
+    to{left: 300px;}
+}
+

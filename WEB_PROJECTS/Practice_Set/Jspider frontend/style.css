@@ -1,0 +1,499 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+/* Header starts */
+    header
+    {
+        background-color: rgba(0, 0, 0, 0.766);
+        color: white;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header .contact
+    {
+        /* border: 2px solid red; */
+        padding: 10px;
+        width: 400px;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 100px;
+    }
+
+    .header-icons
+    {
+        /* border: 2px solid red; */
+        /* margin: 20px; */
+        padding: 15px;
+        width: 400px;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 100px;
+    }
+
+   .contact a
+   {
+    color: white;
+    text-decoration: none;
+    }
+.contact i
+{
+    color: orangered;
+    font-size: 20px;
+}
+    .header-icons i
+    {
+        margin-left: 20px;
+        color: lightgray;
+    }
+/* Header Ends */
+
+/* navbar starts */
+    nav
+    {
+        background-color: white;
+        padding: 20px 10px;
+        position: sticky;
+        top: 0px;
+        z-index: 1000;
+    }
+
+    nav ul
+    {
+        /* border: 2px solid red; */
+        margin: 20px;
+        display: inline;
+        margin-left: 520px;
+    }
+    nav ul li
+    {
+        display: inline;
+    }
+
+    nav ul li a
+    {
+        color: black;
+        margin-left: 35px;
+        text-decoration: none;
+        transition:color .5s ;
+        font-family: calibri light;
+    }
+
+    nav ul li a:hover
+    {
+        color: #e96b56;
+    }
+    .company-logo
+    {
+        font-size: 26px;
+        margin-left: 100px;
+        text-decoration: none;
+        font-weight: bold;
+        letter-spacing: 2px;
+        color: black;
+        border-left: 8px solid #e96b56;
+        padding-left: 8px;
+    }
+/* navbar ends */
+
+/* banner starts */
+.banner
+{
+    background-color:yellow ;
+    height: 570px;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.578),rgba(255, 255, 255, 0.59)) ,url("https://bootstrapmade.com/demo/templates/Eterna/assets/img/slide/slide-2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content
+{
+    /* border: 2px solid red; */
+    width: 700px;
+    padding: 30px;
+    text-align: center;
+}
+.banner-content h1
+{
+    font-size: 45px;
+}
+
+.banner-content p
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.banner-btn
+{
+    background-color: #e96b56;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 20px;
+}
+/* banner ends */
+
+/* cards starts */
+.cards
+{
+    /* border: 2px solid red; */
+    margin: 50px 80px;
+    display: flex;
+}
+
+.cards .card
+{
+    /* border: 2px solid purple; */
+    margin: 20px;
+    width: 450px;
+    height: 245px;
+    padding: 30px;
+    box-shadow: 3px 3px 10px 3px lightgrey;
+    border-radius: 16px;
+    transition: all .6s;
+}
+
+.cards .card h3
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cards .card p
+{
+    line-height: 23px;
+}
+
+.cards .card i
+{
+    font-size: 40px;
+    color: #e96b56;
+}
+
+.cards .card:hover
+{
+    background-color: #e96b56;
+    color: white;
+}
+
+.cards .card:hover i
+{
+    color: white;
+}
+/* cards ends */
+
+/* Volu starts */
+.volu
+{
+    /* border: 2px solid red; */
+    padding: 50px 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.volu-img,.volu-text
+{
+    /* border: 2px solid purple; */
+    width: 700px;
+    margin: 20px;
+}
+.volu-img img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.volu-text h1
+{
+    font-size: 27px;
+    color: rgba(0, 0, 0, 0.663);
+}
+
+.volu-text p
+{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-style: italic;
+    line-height: 24px;
+    color: gray;
+    font-family: calibri light;
+}
+.volu-text .para
+{
+    font-style: normal;
+
+}
+
+.volu-text ul li
+{
+    margin-bottom: 20px;
+    color: gray;
+    font-family: calibri light;
+    list-style: none;
+}
+
+.fa-check-circle-o
+{
+    font-size: 25px;
+    color: #e96b56;
+}
+/* Volu ends */
+
+/* cards-two starts */
+.cards-two
+{
+    /* border: 2px solid red; */
+    margin: 50px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cards-two .card
+{
+    border: 1px solid rgba(211, 211, 211, 0.454);
+    margin: 20px;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .8s;
+}
+
+.cards-two .card-content
+{
+    /* border: 2px solid yellow; */
+    width: 350px;
+    text-align: center;
+}
+
+.cards-two .card-content h2
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cards-two .card-content p
+{
+    line-height: 23px;
+    font-family: calibri light;
+    font-size: 17px;
+    color: gray;
+}
+.cards-two .card-content i
+{
+    font-size: 35px;
+    height: 80px;
+    width: 80px;
+    background-color: #e96b56;
+    padding: 20px;
+    padding-top: 23px;
+    box-shadow: -7px -7px #e96c5687;
+    border-radius: 5px;
+    color: white;
+}
+
+.cards-two .card:hover
+{
+    background-color: #e96b56;
+}
+
+.cards-two .card:hover i
+{
+    background-color: white;
+    color: #e96b56;
+    box-shadow: -7px -7px rgba(255, 255, 255, 0.474);
+}
+
+.cards-two .card:hover h2,.cards-two .card:hover p
+{
+   color: white;
+}
+/* cards-two ends */
+
+/* clients starts */
+.clients
+{
+    /* border: 2px solid red; */
+    margin: 50px 80px;
+    text-align: center;
+}
+.client-images
+{
+    /* border: 2px solid purple; */
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.client-images img
+{
+    height: 70px;
+    width: 110px;
+    margin: 20px;
+    filter: grayscale(100%);
+}
+.client-images img:hover
+{
+    filter: none;
+}
+.clients hr
+{
+    width: 50px;
+    height: 5px;
+    background-color: #e96b56;
+    border: none;
+    margin: 20px auto;
+}
+/* clients ends */
+
+/* footer starts */
+    footer
+    {
+        background-color: black;
+        color: white;
+        padding: 50px 80px;
+    }
+
+    footer section
+    {
+        /* border: 2px solid red; */
+        margin: 20px;
+    }
+    footer .input
+    {
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 1px solid lightgrey;
+    }
+    footer .input div
+    {
+        /* border: 2px solid yellow; */
+        margin: 20px;
+        width: 600px;
+        position: relative;
+    }
+    footer .input div h1
+    {
+        margin-bottom: 30px;
+    }
+
+    footer .input div input
+    {
+        width: 100%;
+        padding: 17px 15px;
+        border-radius: 70px;
+    }
+    footer .input div button
+    {
+        background-color: #e96b56;
+        color: white;
+        font-size: 20px;
+        font-family: calibri light;
+        border-radius: 70px;
+        padding:8px 28px ;
+        position: absolute;
+        right: 7px;
+        top: 6px;
+        border: none;
+    }
+
+    .links
+    {
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 1px solid lightgray;
+    }
+    .links div
+    {
+        margin: 20px;
+        /* border: 2px solid yellow; */
+        width: 450px;
+    }
+    .links div h3
+    {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .links div ul li
+    {
+        margin-bottom: 20px;
+        list-style: none;
+    }
+    .links div ul li i
+    {
+        color: #e96b56;
+    }
+    
+    footer .contact p
+    {
+        margin-bottom: 20px;
+        line-height: 25px;
+    font-family: calibri light;
+
+    }
+
+footer .icons p
+{
+    line-height: 25px;
+    font-family: calibri light;
+}
+footer .icons i
+{
+    margin-left: 10px;
+    background-color: rgba(211, 211, 211, 0.352);
+    padding: 10px;
+    border-radius: 100%;
+    font-size: 25px;
+    transition:background-color .5s ;
+}
+footer .icons i:hover
+{
+    background-color: #e96b56;
+}
+.copyright p
+{
+    text-align: center;
+    line-height: 25px;
+    font-family: calibri light;
+
+}
+
+/* footer ends */
+
+/* scrollarrow starts*/
+.scrollarrow
+{
+    background-color: #e96b56;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+.scrollarrow a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+/* scrollarrow ends */
