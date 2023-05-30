@@ -1,0 +1,309 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.sec8 {
+    width: 120vh;
+    height: 70vh;
+    border: 2px solid rgba(128, 128, 128, 0.763);
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    border-radius: 5px;
+
+}
+
+.sec8 #close {
+    position: relative;
+    left: 120vh;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.sec8 #para {
+    background-color: #EFFFF4;
+    color:
+        #008A45;
+        text-align: center;
+
+}
+
+.sec8 .form {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec8 .form .div1 {
+    width: 30vh;
+
+}
+
+.sec8 .form .div1 .fdiv1 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.sec8 .form .div1 .fdiv1 input {
+    /* border: none; */
+    outline: none;
+    padding-left: 10px;
+    width: 150px;
+    /* border: 2px solid rgba(128, 128, 128, 0.892); */
+    height: 35px;
+    /* display: inline-block; */
+}
+
+.sec8 .form .div1 .fdiv2 input {
+
+    outline: none;
+    padding-left: 10px;
+    width: 300px;
+    height: 35px;
+}
+
+.sec8 .form .div1 .fdiv3 input {
+
+    outline: none;
+    padding-left: 10px;
+    width: 300px;
+    height: 35px;
+}
+
+.sec8 .form .div1 .fdiv4 input {
+
+    outline: none;
+    padding-left: 10px;
+    width: 300px;
+    height: 35px;
+}
+
+.sec8 .form .div1 button {
+    padding: 10px 0;
+    color: white;
+    background-color: #2F6CE5;
+    width: 300px;
+    margin: 20px 0;
+    border-radius: 20px;
+    border: none;
+}
+
+.sec8 .form .div1 .face,
+.sec8 .form .div1 .google {
+    display: flex;
+    margin: 10px 0;
+    width: 300px;
+    border: 1px solid rgba(128, 128, 128, 0.882);
+    /* padding-left: 20px; */
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+/* .from .div2{
+    margin-left: 100px;
+    width: 350px;
+    height: 350px;
+} */
+
+
+/* section9 started */
+
+.sec9 {
+    width: 120vh;
+    height: 70vh;
+    border: 2px solid rgba(128, 128, 128, 0.763);
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    border-radius: 5px;
+
+}
+
+.sec9 #close {
+    position: relative;
+    left: 120vh;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.sec9 #para {
+    background-color: #EFFFF4;
+    color:
+        #008A45;
+    text-align: center;
+
+}
+
+.sec9 .form {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec9 .form .div1 {
+    width: 30vh;
+
+}
+
+.sec9 .form .div1 .fdiv1 {
+    /* display: flex; */
+    margin-top: 20px;
+}
+
+.sec9 .form .div1 .fdiv1 input {
+    /* border: none; */
+    outline: none;
+    padding-left: 15px;
+    width: 300px;
+    /* border: 2px solid rgba(128, 128, 128, 0.892); */
+    height: 40px;
+    /* display: inline-block; */
+}
+
+.sec9 .form .div1 .fdiv2 input {
+
+    outline: none;
+    padding-left: 10px;
+    width: 300px;
+    height: 35px;
+}
+
+.sec9 .form .div1 .fdiv3 input {
+
+    outline: none;
+    padding-left: 10px;
+    width: 300px;
+    height: 35px;
+}
+
+.sec9 .form .div1 .fdiv4 input {
+
+    outline: none;
+    padding-left: 10px;
+    width: 300px;
+    height: 35px;
+}
+
+.sec9 .form .div1 button {
+    padding: 10px 0;
+    color: white;
+    background-color: #2F6CE5;
+    width: 300px;
+    margin: 20px 0;
+    border-radius: 20px;
+    border: none;
+}
+
+.sec9 .form .div1 .face,
+.sec9 .form .div1 .google {
+    display: flex;
+    margin: 10px 0;
+    width: 300px;
+    border: 1px solid rgba(128, 128, 128, 0.882);
+    /* padding-left: 20px; */
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+/* section9 ended */
+
+
+/* mediquery for section8 started */
+
+@media (min-width:780px) and (max-width:950px) {
+    .sec8 {
+        width: 500px;
+        height: 120vh;
+    }
+
+    .sec8 .form {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        margin-left: 50px;
+        /* margin-top: 20px; */
+    }
+    .sec8 .form .div2{
+        margin-top: 30px;   
+    }
+
+}
+
+@media (min-width:350px) and (max-width:1200px) {
+    .sec8 {
+        width: 350px;
+        height: 120vh;
+    }
+
+    .sec8 .form {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        margin-left: 30px;
+        /* margin-top: 20px; */
+       
+    }
+    .sec8 .form .div2{
+        margin-top: 20px;   
+    }
+    .sec8 #close{
+        position: absolute;
+        /* top: px; */
+        left: 50vh;
+    }
+}
+
+/* mediquery for section8 ended*/
+
+
+/* mediquery for section9 started */
+@media (min-width:780px) and (max-width:1200px) {
+    .sec9 {
+        width: 500px;
+        height: 120vh;
+    }
+
+    .sec9 .form {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        margin-left: 50px;
+        /* margin-top: 20px; */
+       
+    }
+    .sec9 .form .div2{
+        margin-top: 20px;   
+    }
+    .sec9 #close{
+        position: absolute;
+        /* top: px; */
+        left: 72vh;
+    }
+}
+
+@media (min-width:350px) and (max-width:780px) {
+    .sec9 {
+        width: 350px;
+        height: 120vh;
+    }
+
+    .sec9 .form {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        margin-left: 30px;
+    }
+    .sec9 .form .div2{
+        margin-top: 20px;   
+    }
+    .sec9 #close{
+        position: absolute;
+        /* top: px; */
+        left: 50vh;
+    }
+}
+/* mediquery for section9 ended */
